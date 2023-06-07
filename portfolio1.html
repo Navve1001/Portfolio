@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Portfolio</title>
+    <link rel="stylesheet" href="portfolio1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links" id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</p></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+    <section id="home" class="hero">
+      <div class="text_animation">
+        <h1>Hey, its me Naveen</h1>
+        <p>I am a Front-end Developer.</p>
+        <h2>Welcome to my portfolio website!</h2>
+        <a href="./images/naveencv.pdf" download class="cv-button">DOWNLOAD CV</a>
+        </div>
+    </section>
+     
+
+    <section id="about" class="about">
+      <div class="row">
+        <div class="about-col-1">
+            <img src="./images/myprofile.jpg" >
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p class="about-me-content">
+            I am a certified front-end developer with a strong passion for creating engaging and user-friendly websites. With extensive training and expertise in HTML, CSS, and JavaScript, I have the skills and knowledge to bring your digital vision to life.
+          </p>
+          <p>If you have any inquiries, collaboration opportunities, or if you would like to discuss a potential project, please feel free to reach out to me. I am excited about the prospect of working together to create exceptional web experiences.</p>
+          </div>
+        </div> 
+         </section>
+
+    <section id="services">
+      <div class="services-container">
+          <h2>My Services</h2>
+          <div class="services-grid">
+              <div class="service">
+                  <i class="fas fa-code"></i>
+                  <h3>Web Development</h3>
+                  <p>I create responsive and user-friendly websites using the latest web technologies using the HTML and CSS</p>
+              </div>
+              <div class="service">
+                  <i class="fas fa-paint-brush"></i>
+                  <h3>UI/UX Design</h3>
+                  <p>I design visually appealing and intuitive interfaces that enhance the user experience.</p>
+              </div>
+              <div class="service">
+                  <i class="fas fa-cogs"></i>
+                  <h3>Website Maintenance</h3>
+                  <p>I provide ongoing support and maintenance to keep your website running smoothly.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <div id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>
+        <span class="skill-name">HTML and CSS</span>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 90%;"></div>
+        </div>
+      </li>
+      <li>
+        <span class="skill-name">EXCEL</span>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 80%;"></div>
+        </div>
+      </li>
+      <li>
+        <span class="skill-name">JavaScript</span>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 75%;"></div>
+        </div>
+      </li>
+      <li>
+        <span class="skill-name">React</span>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 70%;"></div>
+        </div>
+      </li>
+    </ul>
+  </div>      
+
+  <section id="portfolio">
+      <div class="portfolio-container">
+          <h2>Portfolio</h2>
+          <div class="portfolio-grid">
+              <div class="portfolio-item">
+                  <img src="./images/project1.jpg" alt="Project 1">
+                  <div class="portfolio-overlay">
+                      <h3>ONLINE STORE</h3>
+                      <p>I have created a user friendly sample online store using the HTML and CSS</p>
+                      <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+              </div>
+              <div class="portfolio-item">
+                  <img src="./images/project2.jpeg"Project 2">
+                  <div class="portfolio-overlay">
+                      <h3>PERSONAL PORTFOLIO</h3>
+                      <p>Creating a own portfolio website using the HTML, CSS and Javascript.</p>
+                      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                  </div>
+              </div>
+              <div class="portfolio-item">
+                  <img src="./images/project3.png" alt="Project 3">
+                  <div class="portfolio-overlay">
+                      <h3>SOCILA MEDIA DASHBOARD</h3>
+                      <p>This websitewill be totally using the react framework with latest UI designing</p>
+                      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+    </header>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="row">
+          <div class="contact-left">
+            <form>
+              <input type="text" name="Name" placeholder="your name" required>
+              <input type="email" name="email" placeholder="your email" required>
+              <textarea name="message"  rows="6" placeholder="your message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+              
+          </form>
+          </div>
+          <div class="contact-right">
+                  <p>Email: naveenkung3@gmail.com</p>
+                  <p>Phone: +91 8825973075</p>
+          </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 NAVEEN All rights reserved.</p>
+    </footer>
+
+    <script>
+       
+ 
+ var tablinks = document.getElementsByClassName('tab-links');
+      var tabcontents = document.getElementsByClassName('tab-contents');
+  
+  
+  function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove('active-link');
+      }
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove('active-tab');
+      }
+      event.currentTarget.classList.add('active-link');
+      document.getElementById(tabname).classList.add('active-tab');
+  }
+  
+      var sidemenu = document.getElementById('sidemenu');
+  
+      function openmenu(){
+          sidemenu.style.right = "0";
+      }
+      function closemenu(){
+          sidemenu.style.right = "-200px";
+      }
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+      });
+    });
+     function scrollToSection(sectionId) {
+     const section = document.getElementById(sectionId);
+     if (section) {
+     section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  
+      // Automatically scroll to a specific section when the page loads
+      window.addEventListener('load', () => {
+     // Replace 'section1' with the actual ID of the section you want to scroll to
+     scrollToSection('section1');
+  });
+  
+    </script>
+</body>
+</html>
