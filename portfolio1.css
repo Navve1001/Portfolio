@@ -445,11 +445,11 @@ footer {
       width: 50px;
       margin-left: -30PX; 
   }
-  nav .fa-solid{
+  nav-links .fa-solid{
       display: block;
       font-size: 25px;
   }
-  nav ul{
+  nav-links ul{
       position: fixed;
       background: #353b48;
       width: 200px;
@@ -460,11 +460,11 @@ footer {
       transition: right 0.5s;
 
   }
-  nav ul li{
+  nav-links ul li{
       display: block;
       margin: 25px;
   }
-  nav ul .fa-solid{
+  nav-links ul .fa-solid{
       position: absolute;
       top: 25px;
       left: 25px;
