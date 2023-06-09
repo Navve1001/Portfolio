@@ -16,7 +16,7 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#skills">Skills</p></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Contact Me</a></li>
                 <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -26,8 +26,6 @@
       <div class="text_animation">
         <h1>Hey, its me Naveen</h1>
         <p>I am a Front-end Developer.</p>
-        <h2>Welcome to my portfolio website!</h2>
-        <a href="./images/naveencv.pdf" download class="cv-button">DOWNLOAD CV</a>
         </div>
     </section>
      
@@ -42,7 +40,7 @@
           <p class="about-me-content">
             I am a certified front-end developer with a strong passion for creating engaging and user-friendly websites. With extensive training and expertise in HTML, CSS, and JavaScript, I have the skills and knowledge to bring your digital vision to life.
           </p>
-          <p>If you have any inquiries, collaboration opportunities, or if you would like to discuss a potential project, please feel free to reach out to me. I am excited about the prospect of working together to create exceptional web experiences.</p>
+          <p class="about-me-content">If you have any inquiries, collaboration opportunities, or if you would like to discuss a potential project, please feel free to reach out to me. I am excited about the prospect of working together to create exceptional web experiences.</p>
           </div>
         </div> 
          </section>
@@ -96,6 +94,12 @@
           <div class="skill-progress" style="width: 70%;"></div>
         </div>
       </li>
+      <li>
+        <span class="skill-name">Database SQL</span>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 75%;"></div>
+        </div>
+      </li>
     </ul>
   </div>      
 
@@ -108,7 +112,7 @@
                   <div class="portfolio-overlay">
                       <h3>ONLINE STORE</h3>
                       <p>I have created a user friendly sample online store using the HTML and CSS</p>
-                      <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                   </div>
               </div>
               <div class="portfolio-item">
@@ -145,6 +149,7 @@
           </form>
           </div>
           <div class="contact-right">
+            <a href="./images/naveencv.pdf" download class="cv-button">DOWNLOAD CV</a>
                   <p>Email: naveenkung3@gmail.com</p>
                   <p>Phone: +91 8825973075</p>
           </div>
@@ -156,10 +161,6 @@
 
     <script>
        
- 
- var tablinks = document.getElementsByClassName('tab-links');
-      var tabcontents = document.getElementsByClassName('tab-contents');
-  
   
   function opentab(tabname){
       for(tablink of tablinks){
