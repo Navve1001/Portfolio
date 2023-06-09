@@ -145,7 +145,7 @@ header {
 
 }
 .about-col-1 img{
-  margin-left: 3cm;
+  margin-left: 2cm;
   height: 100%;
   width: 60%;
   border-radius: 15px;
@@ -454,9 +454,8 @@ footer {
    /*----------------HOME SECTION--------------*/
 
    .hero{
-    margin-top: 150%;
     font-size: 20px;
-    margin-left: -4%;
+    margin-left: 14%;
    }
 
    .hero h1{
